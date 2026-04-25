@@ -131,6 +131,12 @@ new CA inclusions, monitor the compliance of CAs they trust, and take actions
 detected. Failing to perform these responsibilities may lead to serious security
 issues for those who rely on these root stores!
 
+## Evolution of the WebPKI
+
+As the internet evolves to support post-quantum secure solutions, the WebPKI will
+also need to evolve. [Merkle Tree Certificates](mtcs.md) are expected to become
+the certificate solution for many WebPKI use cases.
+
 ## Private PKIs
 
 Private PKIs (a.k.a. "private CAs") are **<ins>not</ins> part of the WebPKI**.
